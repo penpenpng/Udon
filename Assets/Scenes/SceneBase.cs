@@ -7,7 +7,7 @@ using UnityEngine.Events;
 
 public class SceneBase : MonoBehaviour
 {
-    protected void LoadScene<T>(UnityAction<T> onLoad = null)
+    public void LoadScene<T>(UnityAction<T> onLoad = null)
     where T : SceneBase, new()
     {
         string sceneName = new Func<string>(() =>
