@@ -1,6 +1,7 @@
 # User Defined
 .vscode
 .vsconfig
+*.sln
 
 
 # Automatically Generated
