@@ -24,6 +24,11 @@ public class Player : MonoBehaviour
         sprite = transform.GetComponentInChildren<SpriteRenderer>();
         animator = GetComponent<Animator>();
         rigidbody = GetComponent<Rigidbody2D>();
+
+        transform.GetComponentInChildren<PlayerFoot>().SetTriggerCallback(() =>
+        {
+            isJumping = false;
+        });
     }
 
     void Update()
@@ -53,12 +58,6 @@ public class Player : MonoBehaviour
 
         animator.SetBool(ANIMATOR_MOVING_FLAG, !input.Stay);
         animator.SetBool(ANIMATOR_JUMPING_FLAG, isJumping);
-    }
-
-    // TODO: Call this
-    private void OnGround()
-    {
-        isJumping = false;
     }
 
     private void OnDestory()
