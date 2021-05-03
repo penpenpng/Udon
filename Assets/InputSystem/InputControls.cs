@@ -24,7 +24,7 @@ public class @InputControls : IInputActionCollection, IDisposable
                     ""id"": ""58250f11-62f1-4033-8a8f-6352259a0cf3"",
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
-                    ""interactions"": """"
+                    ""interactions"": ""Press""
                 },
                 {
                     ""name"": ""MoveLeft"",
@@ -32,7 +32,7 @@ public class @InputControls : IInputActionCollection, IDisposable
                     ""id"": ""702c9ad4-9afb-4f54-b600-f9e8afa92118"",
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
-                    ""interactions"": """"
+                    ""interactions"": ""Press""
                 },
                 {
                     ""name"": ""Jump"",
@@ -40,14 +40,14 @@ public class @InputControls : IInputActionCollection, IDisposable
                     ""id"": ""8af63188-cd48-44f8-9355-04f72249402f"",
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
-                    ""interactions"": """"
+                    ""interactions"": ""Press""
                 }
             ],
             ""bindings"": [
                 {
                     ""name"": """",
                     ""id"": ""00c5f5ef-5bae-456c-b92b-9689ef4a2ad2"",
-                    ""path"": ""<Keyboard>/a"",
+                    ""path"": ""<Keyboard>/d"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
@@ -58,7 +58,7 @@ public class @InputControls : IInputActionCollection, IDisposable
                 {
                     ""name"": """",
                     ""id"": ""fc25c976-e0e5-4c49-af24-8c6f1fae4b2f"",
-                    ""path"": ""<Keyboard>/d"",
+                    ""path"": ""<Keyboard>/a"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
