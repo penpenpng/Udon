@@ -32,14 +32,24 @@ SpriteAtlas:
     variantMultiplier: 1
     packables:
     - {fileID: 102900000, guid: 1abaa04a7b67cdf4aa00ea6f4969d4c3, type: 3}
-    totalSpriteSurfaceArea: 1000000
+    totalSpriteSurfaceArea: 6000000
     bindAsDefault: 1
     isAtlasV2: 0
     cachedData: {fileID: 0}
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
+  - {fileID: 21300000, guid: 9d78bed0fbca0e546be9f184d785ec0f, type: 3}
+  - {fileID: 21300000, guid: d9ac09444d09502488d61dc070d84fd7, type: 3}
+  - {fileID: 21300000, guid: 85f45fda80fdff744ba1a8f9b6fcb0fd, type: 3}
+  - {fileID: 21300000, guid: ded6090ea1d063b4f9d2ece86507fdcb, type: 3}
+  - {fileID: 21300000, guid: 9685f6bfb680cc842ba9001d43b24815, type: 3}
   - {fileID: 21300000, guid: afcb11dfb0018c74287113d22b05f64a, type: 3}
   m_PackedSpriteNamesToIndex:
+  - transparent
+  - ice
+  - floor_edge
+  - ground
+  - ground_edge
   - floor
   m_RenderDataMap: {}
   m_Tag: SpriteAtlas
