@@ -14,8 +14,8 @@ public class Player : MonoBehaviour
     private bool isJumping = false;
     private const string ANIMATOR_MOVING_FLAG = "isMoving";
     private const string ANIMATOR_JUMPING_FLAG = "isJumping";
-    private const float MOVING_VELOCITY = 1;
-    private const float JUMPING_VELOCITY = 3;
+    private const float MOVING_VELOCITY = 2;
+    private const float JUMPING_VELOCITY = 7;
 
     void Start()
     {
