@@ -6,14 +6,8 @@ public class TitleScene : SceneBase
 {
     public static readonly string SceneName = "TitleScene";
 
-    // Sample code. Please replace it.
-    void StartStage1()
+    public void StartGame()
     {
         LoadScene<Stage1Scene>();
-    }
-
-    void Start()
-    {
-        StartStage1();
     }
 }
